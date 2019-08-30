@@ -1,0 +1,47 @@
+# cd /system/bin
+# ./weightpointer
+Test Strong Class: 
+Construct StrongClass Object.
+-----------------------
+Strong Ref Count: 0.
+Weak Ref Count: 1.
+-----------------------
+-----------------------
+Strong Ref Count: 1.
+Weak Ref Count: 2.
+-----------------------
+Destory StrongClass Object.
+spOut: 0x0.
+
+Test Weak Class: 
+Construct WeakClass Object.
+-----------------------
+Strong Ref Count: 0.
+Weak Ref Count: 1.
+-----------------------
+-----------------------
+Strong Ref Count: 1.
+Weak Ref Count: 2.
+-----------------------
+-----------------------
+Strong Ref Count: 0.
+Weak Ref Count: 1.
+-----------------------
+spOut: 0xa528.
+Destory WeakClass Object.
+
+Test Froever Class: 
+Construct ForeverClass Object.
+-----------------------
+Strong Ref Count: 0.
+Weak Ref Count: 1.
+-----------------------
+-----------------------
+Strong Ref Count: 1.
+Weak Ref Count: 2.
+-----------------------
+-----------------------
+Strong Ref Count: 0.
+Weak Ref Count: 0.
+-----------------------
+Destory ForeverClass Object.
